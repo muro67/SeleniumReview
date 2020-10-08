@@ -51,10 +51,7 @@ public class FhcTripHotelCreateTest  extends TestBase { //miras aldık comme dab
         Assert.assertTrue(esitMi);
 
        // System.out.println(createPage.succes.getText());
-
-
-
-
+git
     }
 
 }
