@@ -1,6 +1,7 @@
 package com.techproed.smoketests;
 
 import com.techproed.pages.FhcTripHotelCreatePage;
+import com.techproed.utilities.ConfigurationReader;
 import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -51,7 +52,10 @@ public class FhcTripHotelCreateTest  extends TestBase { //miras aldık comme dab
         Assert.assertTrue(esitMi);
 
        // System.out.println(createPage.succes.getText());
-git
+
+        // örnek ConfigurationReader.getProperty("fhc_username") // manager2 yi verecek
+
+
     }
 
 }
